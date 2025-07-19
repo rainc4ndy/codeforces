@@ -1,6 +1,2 @@
-n, m, k = map(int, input().split())
+import requests
 
-if k == 1:
-    print('no')
-else:
-    

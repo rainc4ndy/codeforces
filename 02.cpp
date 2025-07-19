@@ -1,23 +1,9 @@
-#include <algorithm>
-#include <bits/stdc++.h> 
-#include <string>
-#include <vector>
-  
-int main() {
-    using namespace std;
+#include <bits/stdc++.h>
 
-    ios_base::sync_with_stdio(false); 
-    cin.tie(NULL); 
-
-    vector<string> s;
-	string tmp;
-	while (cin.peek() != '\n') {
-		cin >> tmp;
-		s.push_back(tmp);
-	}
-	reverse(s.begin(), s.end());
-	for (auto it : s)
-		cout << it << ' ';
-
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	priority_queue<int> pr;
+	pr.insert();
 	return 0;
 }
